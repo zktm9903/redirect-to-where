@@ -4,11 +4,21 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>redirect-to-paper</title>
+    <title>redirect-to-where</title>
   </head>
   <body>
     <script>
-      window.location.href = "https://www.mdpi.com/1963450";
+      if (window.location.href.includes("redirect-to-paper")) {
+        window.location.href = "https://www.mdpi.com/1963450";
+      }
+      if (window.location.href.includes("redirect-to-nm-eat-chromewebstore")) {
+        window.location.href =
+          "https://chromewebstore.google.com/detail/nm-eat/aelgjngikkoofmdjlgnhheafhjnnbjje?hl=ko";
+      }
+      if (window.location.href.includes("redirect-to-nm-eat-chromewebstore")) {
+        window.location.href =
+          "https://apps.apple.com/kr/app/nm-eat/id6741020395";
+      }
     </script>
   </body>
 </html>
